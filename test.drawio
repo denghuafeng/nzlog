@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T03:02:28.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.3" etag="Su4Y5d2qXatuYdu0FKKL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T03:05:48.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="HZUV4D_hBkABEPopYAMf" version="22.1.3" type="github">
   <diagram name="第 1 页" id="MwKtTwmNlt0k0aR77AEY">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MeDne77zHGpiUE4Ycail-1" value="用户界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="164" y="20" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-2" value="前端处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="163" y="123" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-3" value="后端服务器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="89" y="226" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-4" value="数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="47" y="329" width="64" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-5" value="令牌/Session" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="244" y="432" width="108" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-6" value="前端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="415" y="226" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-7" value="爬虫服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="398" y="329" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-8" value="数据处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="423" y="432" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-9" value="结果返回或存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="399" y="535" width="129" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-10" value="输入用户名和密码" style="curved=1;startArrow=none;endArrow=block;exitX=0.4965634889240506;exitY=1;entryX=0.5028564453125;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-1" target="MeDne77zHGpiUE4Ycail-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-11" value="构建登录请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.0028564453125;exitY=0.98189732450854;entryX=0.2958162346111501;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-2" target="MeDne77zHGpiUE4Ycail-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="78" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-12" value="验证身份" style="curved=1;startArrow=none;endArrow=block;exitX=0.10014012611350212;exitY=1;entryX=0.19307493932038833;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-3" target="MeDne77zHGpiUE4Ycail-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-13" value="检查用户名和密码" style="curved=1;startArrow=none;endArrow=block;exitX=0.7991125606796117;exitY=0;entryX=0.5;entryY=1;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-4" target="MeDne77zHGpiUE4Ycail-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="138" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-14" value="生成令牌/Session" style="curved=1;startArrow=none;endArrow=block;exitX=0.9388488702332098;exitY=1;entryX=0.4031905606683747;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-3" target="MeDne77zHGpiUE4Ycail-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="295" />
+              <mxPoint x="266" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-15" value="返回令牌/Session" style="curved=1;startArrow=none;endArrow=block;exitX=0.8505154639175257;exitY=0;entryX=0.6566465507433253;entryY=1;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-3" target="MeDne77zHGpiUE4Ycail-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-16" value="保存令牌/Session" style="curved=1;startArrow=none;endArrow=block;exitX=1.0028564453125;exitY=0.757095777147259;entryX=0.4977620442708333;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-2" target="MeDne77zHGpiUE4Ycail-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-17" value="发起爬虫请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.4977620442708333;exitY=1;entryX=0.5048466435185185;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-6" target="MeDne77zHGpiUE4Ycail-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-18" value="模拟登录" style="curved=1;startArrow=none;endArrow=block;exitX=0.09961967555136021;exitY=1;entryX=0.6263117401002337;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-7" target="MeDne77zHGpiUE4Ycail-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-19" value="获取数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.6068160152972549;exitY=1;entryX=0.5051118827160493;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-7" target="MeDne77zHGpiUE4Ycail-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MeDne77zHGpiUE4Ycail-20" value="解析和处理数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5051118827160493;exitY=1;entryX=0.5032097868217055;entryY=0;rounded=0;" edge="1" parent="1" source="MeDne77zHGpiUE4Ycail-8" target="MeDne77zHGpiUE4Ycail-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
